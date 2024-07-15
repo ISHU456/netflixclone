@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@800&display=swap');
+*{
+    padding:0;
+    margin: 0;
+    font-family: 'Poppins',sans-serif;
+}
+body{
+    background-color: black;
+}
+.main{
+    background-image:url(img/IN-en-20240115-trifectadaily-perspective_alpha_website_medium.jpg);
+    background-position: center center;
+    background-size: max(1500px,100px);
+    height:100vh;
+    position:relative;
+}
+.main .box{
+    height:100vh;
+    width:100%;
+    background-color:black;
+    opacity:0.55;
+    position:absolute;
+    top:0;
+}
+nav{
+    max-width:90vw;
+    justify-content: space-between;
+    margin: auto;
+    display:flex;
+    align-items:center;
+    height:80px;
+    position:relative;
+    justify-content:space-between;
+}
+nav img{
+    width:150px;
+    color: rgb(255, 0, 0);
+    position:relative;
+    z-index:10;
+}
+
+nav button{
+    position:relative;
+    padding:10px;
+    border-width: 0px;
+    color:white;
+    background-color: rgb(18, 18, 18,0.1);
+    z-index:10;
+    cursor: pointer;
+}
+
+.hero{
+    font-family: 'Martel Sans',sans-serif;
+    font-family: 'Poppins',sans-serif;
+    color:white;
+    height:calc(100%-62px);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+    z-index: 10;
+    position:relative;
+    gap: 23px;
+    padding:100px 0px 0px 0px;
+    
+}
+
+.hero> :nth-child(1){
+    font-size: 48px;
+    font-weight:900;
+    text-align: center;
+}
+.hero> :nth-child(2){
+    font-size:24px;
+    font-weight: 400;
+    text-align: center;
+}
+.hero> :nth-child(3){
+    font-size:20px;
+    font-weight: 400;
+    text-align: center;
+}
+.separation{
+    height:7px;
+    background-color: rgb(31, 30, 30);
+    position:relative;
+    z-index: 20;
+}
+.btn{
+    padding:3px 8px;
+    font-weight: bold;
+    background-color: rgb(36, 35, 35,0);
+}
+.btn-red{
+    background-color: red;
+    color:white;
+    font-weight: 500;
+    padding:8px 50px;
+    font-size:20px;
+    border-radius: 4px;
+    border-width:0px;
+    display:inline;
+}
+.btn-red:hover{
+    background-color: white;
+    color:red;
+}
+.btn-redsm{
+    background-color: red;
+    border-radius: 10px;
+}
+.btn-redsm:hover{
+    background-color: white;
+    color:red;
+}
+.main input{
+    padding:7px 101px 9px 15px;
+    font-weight:900;
+    font-size:15px;
+    border-radius: 4px;
+    display:inline;
+    color:white;
+    background-color: rgba(23,23,23,0.2);
+    border:1px solid rgba(246,238,238,0.5);
+}
+.first{
+    display:flex;
+    justify-content: center;
+    margin:auto;
+    text-align: center;
+    max-width: 555px;
+    color:white;
+    justify-content:center;
+    align-items: center;
+}
+.content{
+    position: relative;
+    text-align: left;
+    font-size: larger;
+}
+.secImg{
+    position:relative;
+}
+.secImg img{
+    padding-left: 100px;
+    width:543px;
+    position:relative;
+    z-index: 1;
+}
+
+.secImg video{
+    position:relative;
+    width:400px;
+    bottom:350px;
+}
+.section.first >div{
+    display:flex;
+    flex-direction: column;
+    padding: 34px 0;
+    
+}
+.first> div :first-child{
+    font-size:48px;
+    font-weight:bolder;
+    position:relative;
+}
+.first> div :nth-child(2){
+    font-size:24px;
+    position:relative; 
+}
+.faq h2{
+    text-align: center;
+    font-size: 48px;
+   
+}
+.faq{
+    background-color: black;
+    color:white;
+    padding:34px;
+    font-size: 14px;
+}
+.faqbox{
+    transition: all 1s ease-out;
+    display:flex;
+    color:white;
+    background-color:rgb(64, 64, 64);
+    padding:24px;
+    max-width:60vw;
+    margin:10px auto;
+    justify-content: space-between;
+    cursor: pointer;
+
+}
+.faqbox:hover{
+    background-color:rgb(110, 109, 109);
+}
+.faqbox:active{
+    animation: backwards;
+}
+.lasttext{
+    margin-top: 30px;
+    text-align: center;
+    font-size: large;
+}
+.lastser{
+    background-color: rgb(186, 186, 186,0.2);
+    padding: 10px 100px 10px 10px;
+}
+.lastred{
+    text-align: center;
+}
+footer{
+    color:white;
+    padding:34px;
+}
+footer span{
+    margin:2px 13vw;
+    max-width: 60vw;
+    margin:auto;
+}
+.footer a{
+    text-decoration: none;
+    color:white;
+}
+.footer{
+    display:grid;
+    grid-template-columns: 10fr 10fr 10fr 10fr;
+    color:white;
+}
+.footer-item{
+    display:flex;
+    flex-direction: column;
+}
